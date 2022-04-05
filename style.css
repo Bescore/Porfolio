@@ -1,6 +1,39 @@
+:root {
+    --lightgreen:#a4db82;
+    --darkbrown: #2b1c0c;
+    --dark-green:#59c368;
+    --place-holder-color:#ded1d1;
+    --white:#f3f3f3;
+  }
+
+
+
+.img_header img{
+    border-radius:30px;
+}
+
+header,.sect-2,.sect-4{
+    background-color:var(--lightgreen) ;
+}
+.my_name{
+    font-size:2rem;
+    color: var(--white);
+}
+.img_header{
+    text-align: center;
+    padding: 1.1rem;
+}
 header{
-    background-color: #a4db82;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 ul{
     list-style: none;
+}
+hr{
+    border: var(--white) solid 1px !important;
+}
+.jm_text,.sect-1{
+    padding: 1rem;
+    text-align: center;
 }
