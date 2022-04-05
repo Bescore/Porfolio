@@ -6,15 +6,20 @@
     --white:#f3f3f3;
   }
 
-
-
+body{
+    font-size: 0.8em;
+}
+nav a{
+    text-decoration: none !important;
+    color: var(--white);
+}
 .img_header img,.div_img_sect-1 img,.sect-3 img{
     border-radius:30px;
 }
 nav .first_ul{
     background-color: var(--dark-green);
     color: var(--white);
-    height: 20%;
+    height: 25%;
     position: fixed;
     top: 40%;
     border-top-right-radius: 15px;
@@ -23,7 +28,7 @@ nav .first_ul{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     transition: ease-in-out 200ms;
     transform:translate(-200px) ;
 }
@@ -39,6 +44,16 @@ nav .first_ul:hover{
 .sect-2,.sect-4{
     border-radius: 20px;
 }
+.sect-3 .java{
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 5px;
+margin: 30px;
+height:10vh ;
+}
+
+
 header,.sect-2,.sect-4{
     background-color:var(--lightgreen) ;
 }
@@ -102,7 +117,25 @@ form .in_text{
 }
 .about_items img{
 border-radius: 50%;
+margin: 20px;
 }
 footer{
     background-color: var(--darkbrown);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+footer div{
+    display: flex;
+    gap: 5rem;
+    height: 10vh;
+    align-items: center;
+}
+footer div a img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--white);
 }

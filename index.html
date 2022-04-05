@@ -5,6 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<!--font awesome cdn-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
 		<!--bootstrap css et js-->
 		<!-- CSS only -->
 		<link
@@ -22,12 +27,12 @@
 		<title>My portfolio</title>
 	</head>
 	<body>
-		<header>
+		<header id="home">
 			<nav>
 				<ul class="first_ul">
-					<li>Home</li>
-					<li>Web Dev</li>
-					<li>Contact / À propos de moi</li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#web_dev">Web Dev</a></li>
+					<li><a href="#Contact">Contact / À propos de moi</a></li>
 				</ul>
 			</nav>
 			<div class="jm_container">
@@ -62,7 +67,7 @@
 			</div>
 		</section>
 		<section class="sect-2">
-			<h1>Web developper</h1>
+			<h1 id="web_dev">Web developper</h1>
 			<div class="sect-2_wrapper">
 				<div class="sect_icon_wrapper">
 					<div class="row_icon_1">
@@ -85,7 +90,7 @@
 						voluptatum vitae quos.
 					</p>
 					<div>
-						<img src="https://via.placeholder.com/120x200" alt="" />
+						<img src="https://via.placeholder.com/120x120" alt="" />
 					</div>
 				</div>
 				<div class="link_git_contenair">
@@ -104,16 +109,18 @@
 					praesentium? Soluta corrupti provident nulla.
 				</p>
 			</div>
-			<div>
-				<div>ICONE Double flèche</div>
-				<div>Icone JAVA</div>
+			<div class="java">
+				<i class="fa-solid fa-arrow-right-arrow-left fa-2x fa-bounce"></i>
+				<div>
+					<img src="/assets/java.png" alt="java" />
+				</div>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/200" alt="" />
 			</div>
 		</section>
 		<section class="sect-4">
-			<h2>Travaillons ensemble</h2>
+			<h2 id="Contact">Travaillons ensemble</h2>
 			<div class="work_together_wrapper">
 				<form action="">
 					<input type="email" placeholder="Votre adresse mail..." />
@@ -126,7 +133,7 @@
 					<p>Paris 75014</p>
 				</div>
 			</div>
-			<hr/>
+			<hr />
 			<h2>A propos de moi</h2>
 			<div class="pair_impair">
 				<div class="about_items">
@@ -169,8 +176,12 @@
 		</section>
 		<footer>
 			<div>
-				<div>image linkedin</div>
-				<div>image git</div>
+				<a href="https://www.linkedin.com/in/jean-marie-lator-74543a202/"
+					><img src="/assets/kedin.gif" alt="linkedin"
+				/></a>
+				<a href="https://github.com/Bescore"
+					><img src="/assets/github.png" alt="github"
+				/></a>
 			</div>
 		</footer>
 	</body>
