@@ -8,10 +8,18 @@
 
 
 
-.img_header img{
+.img_header img,.div_img_sect-1 img,.sect-3 img{
     border-radius:30px;
 }
-
+.sect-1, .sect-2,.sect-3{
+    margin: 30px auto;
+}
+.sect-4{
+    margin-bottom: -2vh;
+}
+.sect-2,.sect-4{
+    border-radius: 20px;
+}
 header,.sect-2,.sect-4{
     background-color:var(--lightgreen) ;
 }
@@ -33,7 +41,46 @@ ul{
 hr{
     border: var(--white) solid 1px !important;
 }
-.jm_text,.sect-1{
+.jm_text,.sect-1,.sect-2,.sect-3,.sect-4{
     padding: 1rem;
     text-align: center;
+}
+
+.div_img_sect-1 p{
+    margin: 1.5rem auto;
+}
+.sect-2 h1{
+    color: var(--white);
+    margin:1.2rem;
+}
+.row_icon_1 img,.row_icon_2 img{
+    margin: 0.8rem;
+}
+.link_git_contenair{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.sect-4 h2{
+    color: var(--white);
+}
+.sect-4 input{
+    margin: 1.5rem;
+}
+form .in_text{
+    height: 8rem;
+    width: 12rem;
+}
+.submit{
+    border-radius: 5px;
+    background-color: var(--dark-green);
+    height: 3rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    color: var(--white);
+}
+footer{
+    background-color: var(--darkbrown);
 }
