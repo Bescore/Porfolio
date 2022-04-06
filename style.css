@@ -222,3 +222,23 @@ footer div a img{
     border-radius: 50%;
     background-color: var(--white);
 }
+
+/*MEDIA QUERIES*/
+
+@media all and (min-device-width:426px) and (max-device-width:768px){
+    :root{
+        font-size: 1rem;
+    }
+    
+    .img_header img ,.afpa_pic_wrapper img,.div_img_sect-1 div img,.locaux img,.about_items img {
+        width: 250px;
+        height: 250px;
+    }
+    nav .first_ul{
+        transform:translate(-200px) ;
+        
+    }
+}
+@media all and (min-device-width:768px) and (max-device-width:1024px){
+
+}
