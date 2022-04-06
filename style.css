@@ -37,6 +37,12 @@ nav .first_ul{
     justify-content: space-around;
     transition: ease-in-out 200ms;
     transform:translate(-180px) ;
+    
+}
+.fa-caret-right{
+    position: absolute;
+    right: -10px;
+    color: var(--darkbrown);
 }
 nav .first_ul:hover{
     transform:translate(0px) ;
