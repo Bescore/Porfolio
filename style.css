@@ -240,5 +240,63 @@ footer div a img{
     }
 }
 @media all and (min-device-width:768px) and (max-device-width:1024px){
-
+    :root{
+        font-size: 1rem;
+    }
+    .img_header img ,.afpa_pic_wrapper img,.div_img_sect-1 div img,.locaux img,.about_items img {
+        width: 250px;
+        height: 250px;
+    }
+    nav .first_ul{
+        background-color: initial;
+        color: var(--white);
+        height: auto;
+        width: 90%;
+        position: initial;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        z-index:10;
+        padding: 10px;
+        display: flex;
+        flex-direction: initial;
+        justify-content: flex-end;
+        gap: 20px;
+        transition: ease-in-out 200ms;
+        transform:translate(0px) ;
+        
+    }
+    .jm_container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .fa-caret-right{
+        position: absolute;
+        right: -10px;
+        color: var(--darkbrown);
+        display: none!important;
+    }
+    .img_header img  {
+        border-radius: 30%;
+    }
+    .sect-1{
+        display: flex;
+    flex-direction:row;
+    align-items: center;
+    }
+    .sect_icon_wrapper{
+        display: flex;
+    }
+    .sect-3{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    form{
+        width: 50%;
+    }
+    .work_together_wrapper{
+        display: flex;
+        justify-content: center;
+        
+    }
 }
