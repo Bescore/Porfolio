@@ -36,7 +36,7 @@ nav .first_ul{
     flex-direction: column;
     justify-content: space-around;
     transition: ease-in-out 200ms;
-    transform:translate(-200px) ;
+    transform:translate(-180px) ;
 }
 nav .first_ul:hover{
     transform:translate(0px) ;
