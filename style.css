@@ -14,12 +14,16 @@ nav a{
     text-decoration: none !important;
     color: var(--white);
 }
-.img_header img,.div_img_sect-1 img,.sect-3 img{
+.locaux img,.div_img_sect-1 img,.sect-3 img{
     border-radius:30px;
 }
 .img_header img  {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    background: rgb(100,198,110);
+background: radial-gradient(circle, rgba(100,198,110,1) 48%, rgba(89,195,104,1) 48%, rgba(110,201,115,1) 50%, rgba(164,219,130,1) 100%, rgba(255,255,255,1) 100%);
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 nav .first_ul{
     background-color: var(--dark-green);
@@ -71,10 +75,11 @@ header,.sect-2,.sect-4{
     font-size:2rem;
     color: var(--white);
 }
-.img_header{
+.img_header {
     text-align: center;
     padding: 1.1rem;
 }
+
 header{
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -93,6 +98,26 @@ hr{
 .div_img_sect-1 p{
     margin: 1.5rem auto;
 }
+.div_img_sect-1 div img{
+    width: 200px;
+    height: 200px;
+}
+
+.sect-1 .btn_wrapper div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem;
+
+}
+.sect-1{
+    display: flex;
+flex-direction: column;
+}
+.btn_wrapper{
+    display: flex;
+    gap: 10px;
+}
 .sect-2 h1{
     color: var(--white);
     margin:1.2rem;
@@ -103,6 +128,29 @@ hr{
     object-fit: fill;
 
 }
+.locaux img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.link_git_contenair div img{
+width: 70px;
+height:70px;
+object-fit: contain;
+align-self: center;
+margin:0 15px;
+
+}
+
+.link_git_contenair div  #kedin_bloc{
+    width: 50px;
+    height:50px;
+}
+.link_git_contenair div {
+    display: flex;
+    align-content: center;
+     
+     }
 .row_icon_1 img,.row_icon_2 img{
     margin: 0.8rem;
 }
