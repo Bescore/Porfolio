@@ -116,7 +116,7 @@ form .in_text{
     color: var(--white);
 }
 .about_items img{
-border-radius: 50%;
+border-radius: 20%;
 margin: 20px;
 object-fit: cover;
 width: 200px;
