@@ -130,6 +130,7 @@ footer{
     align-items: center;
     padding: 10px;
 }
+
 footer div{
     display: flex;
     gap: 5rem;
