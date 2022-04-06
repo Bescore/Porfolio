@@ -9,12 +9,17 @@
 body{
     font-size: 0.8em;
 }
+
 nav a{
     text-decoration: none !important;
     color: var(--white);
 }
 .img_header img,.div_img_sect-1 img,.sect-3 img{
     border-radius:30px;
+}
+.img_header img  {
+    width: 200px;
+    height: 200px;
 }
 nav .first_ul{
     background-color: var(--dark-green);
@@ -51,6 +56,11 @@ flex-direction: column;
 gap: 5px;
 margin: 30px;
 height:10vh ;
+}
+.afpa_pic_wrapper img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 
