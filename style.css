@@ -294,9 +294,129 @@ footer div a img{
     form{
         width: 50%;
     }
+    form .in_text{
+        height: 8rem;
+        width: 70%;
+    }
+    .in_mail{
+        width: 70%;
+    }
     .work_together_wrapper{
         display: flex;
         justify-content: center;
         
     }
+    .about_items{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (min-device-width:1024px){
+    :root{
+        font-size: 1.2rem;
+    }
+    body{
+        margin: 0 auto;
+    }
+    .img_header img ,.afpa_pic_wrapper img,.div_img_sect-1 div img,.locaux img,.about_items img {
+        width: 250px;
+        height: 250px;
+    }
+    nav .first_ul{
+        background-color: initial;
+        color: var(--white);
+        height: auto;
+        width: 90%;
+        position: initial;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        z-index:10;
+        padding: 10px;
+        display: flex;
+        flex-direction: initial;
+        justify-content: flex-end;
+        gap: 20px;
+        transition: ease-in-out 200ms;
+        transform:translate(0px) ;
+        
+    }
+    .jm_container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .fa-caret-right{
+        position: absolute;
+        right: -10px;
+        color: var(--darkbrown);
+        display: none!important;
+    }
+    .img_header img  {
+        border-radius: 30%;
+    }
+    .sect-1{
+        display: flex;
+    flex-direction:row;
+    align-items: center;
+    }
+    .sect_icon_wrapper{
+        display: initial;
+    }
+    .sect-2_wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+
+    }
+    .sect-2{
+        text-align: initial;
+    }
+    .sect-3{
+        display: flex;
+        flex-direction: row;
+        text-align: initial;
+    }
+    .sect-4{
+        text-align: initial;
+    }
+    form{
+        width: 50%;
+    }
+    form .in_text{
+        height: 8rem;
+        width: 70%;
+    }
+    .in_mail{
+        width: 70%;
+    }
+    .work_together_wrapper{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .about_items{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_items img{
+        border-radius: 50%;
+    }
+    
+    .cont{
+        width: 65%;
+        margin: 0 auto;;
+    }
+    .right_side_sect-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        
+    }
+    
 }
