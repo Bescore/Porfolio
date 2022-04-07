@@ -5,8 +5,11 @@
     --place-holder-color:#ded1d1;
     --white:#f3f3f3;
     font-size: 0.9rem;
+    
   }
-
+ body{
+    font-family: 'Nanum Gothic Coding', monospace !important;
+ }
  a{
     text-decoration: none !important;
     color: var(--white)!important;
