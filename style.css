@@ -239,7 +239,7 @@ footer div a img{
         
     }
 }
-@media all and (min-device-width:768px) and (max-device-width:1024px){
+@media all and (min-device-width:768px) and (max-device-width:1200px){
     :root{
         font-size: 1rem;
     }
@@ -313,16 +313,42 @@ footer div a img{
         align-items: center;
     }
 }
-@media all and (min-device-width:1024px){
+@media all and (min-device-width:1200px){
     :root{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     body{
         margin: 0 auto;
     }
-    .img_header img ,.afpa_pic_wrapper img,.div_img_sect-1 div img,.locaux img,.about_items img {
-        width: 250px;
+    .img_header img ,.div_img_sect-1 div img{
+        width: 300px;
+        height: 280px;
+    }
+    .row_icon_1 img,.row_icon_2 img {
+        width: 60px;
+        height: 60px;
+    }
+    .locaux img{
+        width: 150px;
         height: 250px;
+        border-radius: 0;
+        margin-left: 15px;
+    }
+    #web_dev,h2{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .about_items{
+        width: 85%;
+        margin: 30px auto;
+    }
+    .about_items p{
+        
+        margin-left:80px
+    }
+    
+    .locaux p{
+         text-align: center;
     }
     nav .first_ul{
         background-color: initial;
@@ -354,7 +380,7 @@ footer div a img{
         display: none!important;
     }
     .img_header img  {
-        border-radius: 30%;
+        border-radius: 10%;
     }
     .sect-1{
         display: flex;
@@ -366,11 +392,18 @@ footer div a img{
     }
     .sect-2_wrapper{
         display: flex;
-        justify-content: space-evenly;
-        width: 90%;
+        justify-content: space-between;
+        width: 85%;
         align-items: center;
+        margin: 8px auto;
 
     }
+    .link_git_contenair{
+    display: flex;
+    justify-content: flex-end;
+    width: 94.5%;
+    margin-top:10px ;
+     }
     .sect-2{
         text-align: initial;
     }
@@ -386,15 +419,20 @@ footer div a img{
         width: 50%;
     }
     form .in_text{
-        height: 8rem;
+        height: 12rem;
         width: 70%;
     }
     .in_mail{
         width: 70%;
     }
+    input::placeholder{
+        padding-left: 20px;
+        
+    }
     .work_together_wrapper{
         display: flex;
-        justify-content: center;
+        justify-content: initial;
+        margin-left: 95px;
         
     }
     .about_items{
@@ -405,6 +443,8 @@ footer div a img{
     }
     .about_items img{
         border-radius: 50%;
+        height: 150px;
+        width: 150px;
     }
     
     .cont{
@@ -416,6 +456,12 @@ footer div a img{
         justify-content: space-around;
         align-items: center;
         width: 50%;
+        
+    }
+    .join_me_wrapper div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         
     }
     
