@@ -52,7 +52,7 @@ nav .first_ul {
 	flex-direction: column;
 	justify-content: space-around;
 	transition: ease-in-out 200ms;
-	transform: translate(-190px);
+	transform: translate(-193px);
 }
 .fa-caret-right {
 	position: absolute;
@@ -265,7 +265,7 @@ footer div a img {
 		height: 250px;
 	}
 	nav .first_ul {
-		transform: translate(-210px);
+		transform: translate(-215px);
 	}
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1200px) {
