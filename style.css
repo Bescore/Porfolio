@@ -324,6 +324,10 @@ footer div a img{
     body{
         margin: 0 auto;
     }
+    .sect-3 p::first-letter{
+        font-size: 40px;
+        color: var(--dark-green);
+    }
     .img_header img ,.div_img_sect-1 div img{
         width: 380px;
         height: 280px;
@@ -478,6 +482,18 @@ footer div a img{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .about_items:nth-last-of-type(2n):hover{
+        border-radius: 10px;
+        background-color:var(--darkbrown);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+        color: var(--white);
+    }
+    .about_items:nth-last-of-type(2n+1):hover{
+        border-radius: 10px;
+        background-color:var(--dark-green);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+        color: var(--white);
     }
     .about_items img{
         border-radius: 50%;
