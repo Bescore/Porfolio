@@ -325,8 +325,19 @@ footer div a img{
         margin: 0 auto;
     }
     .img_header img ,.div_img_sect-1 div img{
-        width: 300px;
+        width: 380px;
         height: 280px;
+        object-fit: cover;
+    }
+    .img_header:hover{
+        background: url("./images/about.gif") no-repeat center ;
+        background-size: cover;
+        box-sizing:content-box;
+
+        border-radius:20px;
+    }
+    .img_header:hover>img{
+      opacity:0 ;
     }
     .row_icon_1 img,.row_icon_2 img {
         width: 60px;
@@ -386,6 +397,9 @@ footer div a img{
     .img_header img  {
         border-radius: 10%;
     }
+    .img_header{
+        margin-left: 10%;
+    }
     .sect-1{
         display: flex;
     flex-direction:row;
@@ -402,6 +416,7 @@ footer div a img{
         margin: 8px auto;
 
     }
+
     .link_git_contenair{
     display: flex;
     justify-content: flex-end;
@@ -411,10 +426,29 @@ footer div a img{
     .sect-2{
         text-align: initial;
     }
+    .sect-1 p{
+        width: 60%;
+        margin:15px auto;
+    }
     .sect-3{
         display: flex;
         flex-direction: row;
+        align-items: center;
         text-align: initial;
+        width: 86%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+    .sect-3 .java{
+        gap: 5vh;
+        justify-content: center;
+        align-items: center;
+        }
+        
+    .afpa_pic_wrapper img{
+        width: 400px;
+        height: 300px;
     }
     .sect-4{
         text-align: initial;
