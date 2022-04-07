@@ -193,6 +193,10 @@ form .in_text{
 .submit:hover{
     transform: scale(1.1);
 }
+.second_hr{
+    width: 85%;
+    margin: 8px auto;
+}
 .about_items img{
 border-radius: 20%;
 margin: 20px;
