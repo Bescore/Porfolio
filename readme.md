@@ -1,0 +1,1 @@
+Projet d'intégration, il nous est demandé de créer une maquette avec figma par exemple représentant le ou les pages de notre portfolio et de la produire en html/css responsive idéalement, bootstrap est autorisé .
