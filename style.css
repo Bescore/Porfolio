@@ -248,12 +248,18 @@ footer div a img {
 	border-radius: 50%;
 	background-color: var(--white);
 }
+.first_ul ul{
+	display: none;
+}
 
 /*MEDIA QUERIES*/
 
 @media all and (min-device-width: 426px) and (max-device-width: 768px) {
 	:root {
 		font-size: 1rem;
+	}
+	.first_ul ul{
+		display: none;
 	}
 
 	.img_header img,
@@ -271,6 +277,9 @@ footer div a img {
 @media all and (min-device-width: 768px) and (max-device-width: 1200px) {
 	:root {
 		font-size: 1rem;
+	}
+	.first_ul ul{
+		display: none;
 	}
 	.img_header img,
 	.afpa_pic_wrapper img,
@@ -351,6 +360,29 @@ footer div a img {
 	body {
 		margin: 0 auto;
 	}
+	.nav .first_ul{
+		position: relative;
+	}
+	nav .first_ul ul li{
+		padding: 5px;
+		}
+		.first_ul ul{
+			position: absolute;
+			top: 10px;
+		}
+		.ul_dev:hover ul {
+			display:block;
+		}
+		.ul_dev:hover ul li:hover {
+			background-color: #2b1c0c;
+			color: #f3f3f3;
+		}
+		nav .first_ul ul{
+			margin: 0;
+			padding: 0;
+			background-color: var(--dark-green);
+			display: none;
+		}
 	.sect-3 p::first-letter {
 		font-size: 40px;
 		color: var(--dark-green);
