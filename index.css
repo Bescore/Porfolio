@@ -16,13 +16,6 @@ a {
 a:hover {
 	color: var(--darkbrown) !important;
 }
-.div_learnt{
-	text-align: center;
-}
-.learnt{
-	color: var(--dark-green) !important;
-}
-
 .locaux img,
 .div_img_sect-1 img,
 .sect-3 img {
@@ -258,10 +251,12 @@ footer div a img {
 .first_ul ul{
 	display: none;
 }
-
+.div_learnt a{
+color:var(--dark-green)!important;
+}
 /*MEDIA QUERIES*/
 
-@media all and (min-device-width: 426px) and (max-device-width: 768px) {
+@media all and (min-width: 426px) and (max-width: 768px) {
 	:root {
 		font-size: 1rem;
 	}
@@ -281,7 +276,7 @@ footer div a img {
 		transform: translate(-215px);
 	}
 }
-@media all and (min-device-width: 768px) and (max-device-width: 1200px) {
+@media all and (min-width: 769px) and (max-width: 1200px) {
 	:root {
 		font-size: 1rem;
 	}
@@ -360,7 +355,7 @@ footer div a img {
 		align-items: center;
 	}
 }
-@media all and (min-device-width: 1200px) {
+@media all and (min-width: 1201px) {
 	:root {
 		font-size: 1rem;
 	}
