@@ -5,8 +5,17 @@ $( ".img_anime" ).mouseover( function () {
     $(".displaying_anime").html(`<img src="${src}" alt="manga"><p>Généré en Jquery</p>`)
 } )
 
+/*ajax*/
 
-
+$.ajax( {
+    url: '',
+    dataType: 'json',
+    success: function ( data ) {
+    },
+    error: function f ( xhr ) {
+        console.log( xhr )
+    },
+} )
 
 
 
