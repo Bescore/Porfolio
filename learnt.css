@@ -7,9 +7,64 @@
 	font-size: 0.9rem;
 }
 
-
-.displaying_anime img{
+.displaying_anime img {
 	width: 100%;
 	height: 100%;
+}
+.fa-angles-down{
+margin-top:20px ;
+color:var(--dark-green) ;
+}
+.sect-2 {
+	opacity: 0;
+	transition: 700ms;
 	
+}
+.sect-2 p::first-letter{
+	font-size: 40px;
+		color: var(--dark-green);
+}
+.fade-in {
+	opacity: 1;
+}
+
+.sect-2-cont {
+	border-radius: 5%;
+	margin: 50px auto;
+	width: 200px;
+	display: flex;
+	overflow-x: hidden;
+	position: relative;
+}
+.round-left {
+	aspect-ratio: 1/1;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 10px;
+}
+.round-right {
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+.chev {
+	color: rgb(185, 101, 53);
+	cursor: pointer;
+	transform: scale(1.5);
+}
+.chev:hover {
+	transform: scale(2);
+}
+.init {
+	display: flex;
+	transition: 500ms;
+}
+figcaption {
+	text-align: center;
+	background-color: #f3f3f3;
+}
+.sect-2-text{
+	text-align: center;
 }
