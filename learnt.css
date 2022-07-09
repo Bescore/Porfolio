@@ -64,6 +64,7 @@ transform: scale(1.05);
 .init {
 	display: flex;
 	transition: 500ms;
+	display: flex;
 }
 figcaption {
 	text-align: center;
@@ -73,7 +74,22 @@ figcaption {
 .sect-2-text{
 	text-align: center;
 }
+.img_imc{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	transition: 1s;
+	object-fit: fill;
+}
+.img_imc:hover{
+	transform: scale(1.05);
+}
 
+.img_imc img{
+	width: 100%;
+	border-radius: 10px;
+
+}
 .sql{
 	width: 100%;
 	display: flex;
@@ -104,4 +120,10 @@ figcaption {
 
 .grow_img_sql:hover{
 	cursor: pointer;
+}
+
+@media all and (min-width: 426px) {
+	.img_imc img{
+		width: 35%;
+	}
 }

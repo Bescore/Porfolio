@@ -7,7 +7,7 @@
 	font-size: 0.9rem;
 }
 body {
-	font-family: "Nanum Gothic Coding", monospace !important;
+	font-family: 'Roboto', sans-serif !important;
 }
 a {
 	text-decoration: none !important;
@@ -52,7 +52,7 @@ nav .first_ul {
 	flex-direction: column;
 	justify-content: space-around;
 	transition: ease-in-out 200ms;
-	transform: translate(-193px);
+	transform: translate(-182px);
 }
 .fa-caret-right {
 	position: absolute;
