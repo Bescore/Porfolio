@@ -129,7 +129,7 @@ hr {
 	height: 200px;
 }
 
-.sect-1 .btn_wrapper div {
+.sect-1  {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -139,8 +139,10 @@ hr {
 	display: flex;
 	flex-direction: column;
 }
-.btn_wrapper {
+.btn_wrapper  {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 10px;
 }
 .sect-2 h1 {
@@ -204,6 +206,7 @@ form .in_text {
 	border-radius: 5px;
 	background-color: var(--dark-green);
 	height: 3rem;
+	line-height: 3rem;
 	width: 150px;
 	outline: none;
 	border: none;
